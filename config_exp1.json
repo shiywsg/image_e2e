@@ -1,0 +1,13 @@
+{
+    "experiment1_awgn_params": {
+        "description": "实验1: 加性高斯白噪声(AWGN)物理信道抗干扰实验",
+        "tx_source_dir": "D:/dataset/test_images",
+        "output_base_dir": "./output_exp1_awgn",
+        "snr_levels": [15.0, 10.0, 5.0, 0.0, -5.0, -10.0],
+        "e2e_symbol_length": 131072,
+        "cc_memory": [4],
+        "cc_g_matrix": [[19, 29]],
+        "target_resolution": 256,
+        "random_seed": 1089
+    }
+}

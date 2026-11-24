@@ -1,0 +1,35 @@
+{
+    "offline_common": {
+        "description": "XGBoost 盲估特征离线采集全局配置",
+        "tx_source_dir": "D:/dataset/photo2013", 
+        "max_images_per_condition": 300,
+        "target_resolution": 256
+    },
+    "exp1_awgn_params": {
+        "snr_levels": [20.0, 15.0, 10.0, 5.0, 0.0, -5.0, -10.0, -15.0]
+    },
+    "exp2_impulse_params": {
+        "fixed_bg_snr_db": 10.0,
+        "impulse_probs": [0.0, 0.01, 0.03, 0.05, 0.07, 0.10, 0.15, 0.20],
+        "burst_length": 100,
+        "impulse_sigma": 10.0
+    },
+    "exp3_mac_params": {
+        "fixed_bg_snr_db": 10.0,
+        "sir_levels": [15.0, 10.0, 5.0, 0.0, -5.0, -10.0]
+    },
+    "exp4_rayleigh_params": {
+        "description": "瑞利慢衰落信道扫描 (平均物理信噪比)",
+        "snr_levels": [20.0, 15.0, 10.0, 5.0, 0.0, -5.0, -10.0, -15.0]
+    },
+    "exp5_fast_rayleigh_params": {
+        "description": "快衰落信道扫描 (M=64块状快衰落)",
+        "snr_levels": [20.0, 15.0, 10.0, 5.0, 0.0, -5.0, -10.0, -15.0],
+        "num_chunks": 64
+    },
+     "exp6_rician_params": {
+        "description": "莱斯慢衰落信道扫描 (高干扰可视距, K=2dB)",
+        "snr_levels": [20.0, 15.0, 10.0, 5.0, 0.0, -5.0, -10.0, -15.0],
+        "k_factor_db": 2.0
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "experiment5_fast_rayleigh_params": {
+        "description": "实验5: 瑞利快衰落(Rayleigh Fast Fading)物理信道抗干扰实验",
+        "tx_source_dir": "D:/dataset/test_images",
+        "output_base_dir": "./output_exp5",
+        "snr_levels": [15.0, 10.0, 5.0, 0.0, -5.0, -10.0],
+        "num_chunks": 64,
+        "e2e_symbol_length": 131072,
+        "cc_memory": [4],
+        "cc_g_matrix": [[19, 29]],
+        "target_resolution": 256,
+        "random_seed": 1089
+    }
+}

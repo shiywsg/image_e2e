@@ -1,0 +1,8 @@
+{
+    "ablation_dirs": {
+        "full": "C:/Users/admin/Desktop/semanticpic",
+        "no_dynamic": "C:/Users/admin/Desktop/ablation_nossnr",
+        "no_ternary": "C:/Users/admin/Desktop/ablation_hard",
+        "base": "C:/Users/admin/Desktop/ablation_hard_nossnr"
+    }
+}

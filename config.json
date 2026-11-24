@@ -1,0 +1,30 @@
+{
+    "tx_source_dir": "D:/dataset/test_images",
+    "rx_target_dir": "./output_images",
+    "train_data_dir": "D:/dataset/train_images",
+    "amc_thresholds": {
+        "4QAM": -4.0
+    },
+    "tau_config": {
+        "4QAM": 0.35,
+        "BPSK": 0.50
+    },
+    "paths": {
+        "tx_weights": "weights/tx_encoder.pth",
+        "rx_weights": "weights/rx_decoder.pth",
+        "analog_tx_weights": "weights/tx_encoder_analog_jscc.pth", 
+        "analog_rx_weights": "weights/rx_decoder_analog_jscc.pth"
+    },
+    "train_params": {
+        "batch_size": 32,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "img_size": 256,
+        "sim_mod": "BPSK",
+        "sim_snr_min": 0.0,
+        "sim_snr_max": 15.0
+    },
+    "experiment_params": {
+        "random_seed": 1089
+    }
+}

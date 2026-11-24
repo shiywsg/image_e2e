@@ -1,0 +1,17 @@
+{
+    "experiment3_params": {
+        "description": "实验3：多用户并发碰撞与语义干扰",
+        "tx_source_dir": "D:/dataset/test_images",
+        "same_domain_dir": "D:/dataset/test_images_same",
+        "out_of_domain_dir": "D:/dataset/test_images_ood",
+        "output_base_dir": "./output_exp3",
+        "snr_levels": [10.0, 5.0, 0.0],
+        "sir_levels": [10.0, 5.0, 0.0, -5.0],
+        "interference_types": ["same_domain", "out_of_domain", "digital_legacy"],
+        "e2e_symbol_length": 131072,
+        "cc_memory": [4],
+        "cc_g_matrix": [[19, 29]],
+        "target_resolution": 256,
+        "random_seed": 2026
+    }
+}

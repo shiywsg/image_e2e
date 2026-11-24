@@ -1,0 +1,15 @@
+{
+    "experiment2_impulse_params": {
+        "description": "实验2: 物理信道突发脉冲干扰 (Burst Impulse Noise)",
+        "fixed_snr_db": 10.0,
+        "burst_probabilities": [0.0, 0.01, 0.03, 0.05, 0.07, 0.10, 0.15],
+        "burst_length": 100,
+        "impulse_std": 10.0,
+        "output_base_dir": "./output_exp2_impulse",
+        "target_resolution": 256,
+        "random_seed": 2026,
+        "e2e_symbol_length": 131072,
+        "cc_memory": [4],
+        "cc_g_matrix": [[19, 29]]
+    }
+}
